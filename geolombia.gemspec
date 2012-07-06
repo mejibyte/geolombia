@@ -4,8 +4,8 @@ require File.expand_path('../lib/geolombia/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Andrés Mejía"]
   gem.email         = ["andmej@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{This gem gives you a list of all cities and states in Colombia and a few methods to work with them.}
+  gem.summary       = %q{This gem gives you a list of all cities and states in Colombia and a few methods to work with them.}
   gem.homepage      = ""
 
   gem.add_development_dependency "rspec"
