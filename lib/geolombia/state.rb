@@ -18,6 +18,10 @@ module Geolombia
     def self.all
       @@all
     end
+    
+    def cities
+      City.all.select { |city| city.state_name == name }
+    end
 
     private
     

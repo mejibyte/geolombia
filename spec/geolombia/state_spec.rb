@@ -31,4 +31,30 @@ describe Geolombia::State do
       state.longitude.should == -75.5
     end
   end
+  
+  describe "#cities" do
+    before do
+      @antioquia = Geolombia::State.find_by_name("Antioquia")
+    end
+    
+    it "returns an array" do
+      @antioquia.cities.should be_instance_of Array
+    end
+    
+    it "returns the actual cities that belong to that state" do
+      @antioquia.cities.size.should == 125
+      names = @antioquia.cities.map(&:name)
+      names.should include("Medellín")
+      names.should include("Envigado")
+      names.should include("Bello")
+      names.should include("Itagüí")
+      names.should include("Sabaneta")
+      names.should include("Retiro")
+      names.should include("Ríonegro")
+      names.should include("La Ceja")
+      names.should include("Tarso")
+      names.should include("Apartadó")
+      names.should include("Caucasia")
+    end
+  end
 end
