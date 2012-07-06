@@ -1,5 +1,9 @@
 require "geolombia/version"
+require "geolombia/base"
+require "geolombia/state"
+require "geolombia/city"
 
 module Geolombia
-  # Your code goes here...
+  Geolombia::State.send(:load_fixtures)
+  Geolombia::City.send(:load_fixtures)
 end

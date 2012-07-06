@@ -17,6 +17,8 @@ Or install it yourself as:
     $ gem install geolombia
 
 ## Usage
+    Geolombia::State.find_by_name("Antioquia")
+    # => #<Geolombia::State:0x00000100841240 @code="05", @name="Antioquia", @latitude=7.0, @longitude=-75.5>
 
     Geolombia::City.where(:name => "Medellín").first
 
