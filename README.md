@@ -50,6 +50,10 @@ This README is all the documentation I've written so far.
 
     Geolombia::City.first.state
 
+## Compatibility
+
+This gem is currently only compatible with Ruby 1.9.3.
+
 ## Contributing
 
 1. Fork it
