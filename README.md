@@ -1,5 +1,7 @@
 # Geolombia
 
+[![Build Status](https://secure.travis-ci.org/andmej/geolombia.png?branch=master)](http://travis-ci.org/andmej/geolombia)
+
 Geolombia is a gem that has a list of all cities and states in Colombia.
 
 ## Installation
