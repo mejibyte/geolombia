@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    Geolombia::City.where(:name => "Medellín").first
+
+    Geolombia::State.where(:name => "Antioquia").first.cities
+
+    Geolombia::City.all
+
+    Geolombia::City.first.state
 
 ## Contributing
 
