@@ -61,3 +61,7 @@ This gem is currently only compatible with Ruby 1.9.3.
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Credits
+
+Thanks to Jorge Iván Meza for his (CSV data files)[http://blog.jorgeivanmeza.com/2008/09/departamentos-y-municipios-de-colombia-actualizacion-20080915/].
