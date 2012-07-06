@@ -15,6 +15,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install geolombia
+    
+## Documentation
+
+This README is all the documentation I've written so far.
 
 ## Usage
 
