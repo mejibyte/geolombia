@@ -57,4 +57,12 @@ describe Geolombia::State do
       names.should include("Caucasia")
     end
   end
+  
+  describe "#name" do
+    it "is UTF-8 encoded" do
+        name = Geolombia::State.find_by_name("Antioquia").name
+        name.encoding.should == Encoding.find("UTF-8")
+    end
+  end
+  
 end
