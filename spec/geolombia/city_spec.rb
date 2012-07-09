@@ -37,7 +37,7 @@ describe Geolombia::State do
   
   
   describe "getters" do
-    it "returns correct values" do
+    it "return correct values" do
       state = Geolombia::City.find_by_name("Medellín")
       state.name.should == "Medellín"
       state.code.should == "05001"
@@ -59,6 +59,13 @@ describe Geolombia::State do
     
     it "returns an instance of State" do
       @medellin.state.should be_instance_of(Geolombia::State)
+    end
+  end
+  
+  describe "#name" do
+    it "is UTF-8 encoded" do
+        name = Geolombia::City.find_by_name("Medellín").name
+        name.encoding.should == Encoding.find("UTF-8")
     end
   end
 end
