@@ -22,6 +22,20 @@ describe Geolombia::State do
     end
   end
   
+  describe "#self.find_by_code" do
+    it "returns an instance of City if found" do
+      city = Geolombia::City.find_by_code("05001")
+      city.should be_instance_of(Geolombia::City)
+      city.name.should == "Medellín"
+    end
+    
+    it "returns nil if not found" do
+      Geolombia::City.find_by_code("666").should be_nil
+    end
+  end
+  
+  
+  
   describe "getters" do
     it "returns correct values" do
       state = Geolombia::City.find_by_name("Medellín")

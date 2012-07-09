@@ -22,6 +22,10 @@ module Geolombia
       @@all.select { |city| city.name == some_name }.first
     end
     
+    def self.find_by_code(some_code)
+      @@all.select { |city| city.code == some_code }.first
+    end
+    
     def self.all
       @@all
     end
