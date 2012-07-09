@@ -4,10 +4,10 @@ module Geolombia
   class City < Base
 
     def initialize(code, name, state_code, state_name, latitude, longitude)
-      @code = code
-      @name = name
-      @state_code = state_code
-      @state_name = state_name
+      @code = code.force_encoding("UTF-8")
+      @name = name.force_encoding("UTF-8")
+      @state_code = state_code.force_encoding("UTF-8")
+      @state_name = state_name.force_encoding("UTF-8")
       @latitude = latitude.to_f
       @longitude = longitude.to_f
     end

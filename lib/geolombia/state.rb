@@ -3,8 +3,8 @@ require 'csv'
 module Geolombia
   class State < Base
     def initialize(code, name, latitude, longitude)
-      @code = code
-      @name = name
+      @code = code.force_encoding("UTF-8")
+      @name = name.force_encoding("UTF-8")
       @latitude = latitude.to_f
       @longitude = longitude.to_f
     end
