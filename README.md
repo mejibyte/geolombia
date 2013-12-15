@@ -52,7 +52,7 @@ This README is all the documentation I've written so far.
 
 ## Compatibility
 
-This gem is currently only compatible with Ruby 1.9.3.
+This gem is currently only compatible with Ruby 1.9.3 and 2.0.0.
 
 ## Contributing
 
