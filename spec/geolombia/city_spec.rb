@@ -7,7 +7,7 @@ describe Geolombia::State do
       Geolombia::City.class_variable_set(:@@all, []) # Clean up so we start from scratch
       Geolombia::City.all.should == []
       Geolombia::City.send(:load_fixtures)
-      Geolombia::City.all.size.should == 1102
+      Geolombia::City.all.size.should == 1103
       Geolombia::City.all.each { |state| state.should be_instance_of(Geolombia::City) }
     end
   end
