@@ -292,7 +292,7 @@
 50245,El Calvario,50,Meta,4.4166667,-73.6666667
 54245,El Carmen,54,Norte de Santander,8.75,-73.3333333
 68235,El Carmen,68,Santander,"6,698",-73.511
-27245,El Carmen de Atrato,27,Chocó,,
+27245,El Carmen de Atrato,27,Chocó,5.982827,-76.304169
 13244,El Carmen de Bolívar,13,Bolívar,9.75,-75.1666667
 50251,El Castillo,50,Meta,3.5680556,-73.7838889
 76248,El Cerrito,76,Valle del Cauca,3.6666667,-76.1666667
@@ -320,7 +320,7 @@
 70233,El Roble,70,Sucre,9.1,-75.2
 25260,El Rosal,25,Cundinamarca,4.85,-74.2666667
 52256,El Rosario,52,Nariño,1.8333333,-77.3333333
-52258,El Tablón de Gómez,52,Nariño,,
+52258,El Tablón de Gómez,52,Nariño,5.982827,-76.304169
 19256,El Tambo,19,Cauca,2.5,-77
 52260,El Tambo,52,Nariño,1.4,-77.3333333
 54250,El Tarra,54,Norte de Santander,8.5847222,-73.0883333
@@ -452,7 +452,7 @@
 08132,Juan de Acosta,08,Atlántico,10.8333333,-75.0333333
 25372,Junín,25,Cundinamarca,4.75,-73.6666667
 27372,Juradó,27,Chocó,7,-77.6666667
-23350,La Apartada y La Frontera,23,Córdoba,,
+23350,La Apartada y La Frontera,23,Córdoba,8.004837,-75.421143
 41378,La Argentina,41,Huila,2.25,-76.1666667
 68377,La Belleza,68,Santander,5.8613889,-73.9683333
 25377,La Calera,25,Cundinamarca,4.75,-73.9166667
@@ -549,8 +549,8 @@
 68444,Matanza,68,Santander,7.4166667,-73.0833333
 05001,Medellín,05,Antioquia,6.2913889,-75.5361111
 25438,Medina,25,Cundinamarca,4.5,-73.3333333
-27425,Medio Atrato,27,Chocó,,
-27430,Medio Baudó,27,Chocó,,
+27425,Medio Atrato,27,Chocó,5.998533,-76.783447
+27430,Medio Baudó,27,Chocó,5.047171,-77.047119
 27450,Medio San Juan (Andagoya),27,Chocó,5.1,-76.683
 73449,Melgar,73,Tolima,4.25,-74.5833333
 19450,Mercaderes,19,Cauca,1.75,-77.1666667
@@ -1096,7 +1096,7 @@
 15897,Zetaquirá,15,Boyacá,5.35,-73.1666667
 25888,Zipacón,25,Cundinamarca,4.8333333,-74.4166667
 25899,Zipaquirá,25,Cundinamarca,5.0283333,-74.0058333
-47980,Zona Bananera (Prado - Sevilla),47,Magdalena,,
+47980,Zona Bananera (Prado - Sevilla),47,Magdalena,10.649811,-73.740234
 54003,Ábrego,54,Norte de Santander,8,-73.2
 41357,Íquira,41,Huila,2.75,-75.75
 15842,Úmbita,15,Boyacá,5.2333333,-73.45
